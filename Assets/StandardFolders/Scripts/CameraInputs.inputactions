@@ -1,0 +1,44 @@
+{
+    "name": "CameraInputs",
+    "maps": [
+        {
+            "name": "MoveCamera",
+            "id": "e837690c-2b75-40ac-821f-d8f6021ab315",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "85fee5ef-6f1c-4e7e-8cf0-955b0ac30792",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Hold"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "57b510d5-ec35-4e58-b772-ebb250684a06",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fd71613-808c-4682-853e-40f4bf0cf49f",
+                    "path": "<Mouse>/delta",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
